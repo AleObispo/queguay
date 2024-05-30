@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="App-description">
-          Bienvenidos a "Que guay !"
+          Bienvenidos a "Qué guay !"
         </p>
         <p className="App-description">
           Tu tienda de productos alimenticios artesanales italianos
