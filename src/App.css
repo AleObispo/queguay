@@ -5,6 +5,12 @@ body {
   color: white;
 }
 
+/* @font-face {
+  font-family: 'Sketch';
+  src: url('../src/assets/fonts/KGSecondChancesSketch.ttf') format('truetype'); 
+} */
+
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -101,4 +107,5 @@ body {
 .App-copyright {
   font-size: 0.8rem;
   margin-top: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
 }

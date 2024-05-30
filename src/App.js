@@ -1,4 +1,5 @@
 import React from 'react';
+import WhatsAppButton from './components/WhatsAppButton'; // Importa el componente del botón de WhatsApp
 import './App.css';
 import logo from './assets/image/logo.png';
 import image0 from './assets/image/image0.jpeg';
@@ -6,6 +7,7 @@ import image1 from './assets/image/image1.jpeg';
 import image2 from './assets/image/image2.jpeg';
 import googleMapsIcon from './assets/icons/ubicacion.png';
 import instagramIcon from './assets/icons/instagram.png';
+import facebookIcon from './assets/icons/facebook.png';
 
 function App() {
   return (
@@ -25,22 +27,19 @@ function App() {
         </p>
       <div className="App-body">
         <div className="App-image">
-        <h2>Biscotti amarena</h2>
+          <h2>Biscotti amarena</h2>
           <p>Galletas de amarena, un postre típico napolitano...</p>
           <img src={image0} alt="Producto 1" />
-          
         </div>
         <div className="App-image">
-        <h2>Panino napoletano</h2>
+          <h2>Panino napoletano</h2>
           <p>Los bocadillos napolitanos son una comida callejera típica</p>
           <img src={image1} alt="Producto 2" />
-         
         </div>
         <div className="App-image">
-        <h2>Tarallo</h2>
+          <h2>Tarallo</h2>
           <p>El tarallo sugna e pepe, en dialecto napolitano "tarall" nzogna e pepe, es la merienda que acompaña, tradicionalmente a los paseos napolitanos</p>
           <img src={image2} alt="Producto 3" />
-          
         </div>
       </div>
       <footer className="App-footer">
@@ -51,8 +50,11 @@ function App() {
         <a href="https://www.instagram.com/queguay_italia?igsh=Nm5peGZvbHlzNW5y" target="_blank" rel="noopener noreferrer">
           <img src={instagramIcon} className="App-icon" alt="Instagram" />
         </a>
-        
+        <a href="https://www.facebook.com/profile.php?id=61559836539033" target="_blank" rel="noopener noreferrer">
+          <img src={facebookIcon} className="App-icon" alt="Facebook" />
+        </a>
       </footer>
+      <WhatsAppButton /> {/* Botón flotante de WhatsApp */}
       <p className="App-copyright">&copy; 2024 Que guay!. All rights reserved.</p>
     </div>
   );
